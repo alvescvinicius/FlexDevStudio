@@ -2,14 +2,21 @@
 # -                                                          -  #
 # ------------------------------------------------------------- #
 # Create project
-create-react-app nox-studio-web
-cd nox-studio-web
+create-react-app portaal-web
+cd portaal-web
 
 # Install frameworks
 npm install react-router-dom
 npm install --save firebase
 
 npm start
+
 # ------------------------------------------------------------- #
 # -                                                          -  #
 # ------------------------------------------------------------- #
+# Create folder/files for the components
+src/component/Home/index.js
+src/component/Login/index.js
+src/component/Register/index.js
+src/component/Dashboard/index.js
+
