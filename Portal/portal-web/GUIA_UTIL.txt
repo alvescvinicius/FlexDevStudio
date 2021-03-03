@@ -1,5 +1,5 @@
 # ------------------------------------------------------------- #
-# - Create project                                                       -  #
+# - Create project                                           -  #
 # ------------------------------------------------------------- #
 create-react-app portaal-web
 cd portaal-web
@@ -11,7 +11,7 @@ npm install --save firebase
 npm start
 
 # ------------------------------------------------------------- #
-# - Create folder/files for the components                                                  -  #
+# - Create folder/files for the components                   -  #
 # ------------------------------------------------------------- #
 src/component/Home/index.js
 src/component/Login/index.js
@@ -20,7 +20,7 @@ src/component/Dashboard/index.js
 src/component/Header/index.js
 
 # ------------------------------------------------------------- #
-# - Firebase project web                                                         -  #
+# - Firebase project web                                     -  #
 # ------------------------------------------------------------- #
 - Open Google Firebase Web Console https://console.firebase.google.com/?hl=pt-br&pli=1
 - Add project FlexDevStudio
@@ -51,3 +51,8 @@ src/component/Header/index.js
   firebase.initializeApp(firebaseConfig);
   firebase.analytics();
 </script>
+
+# ------------------------------------------------------------- #
+# - Bootstrap installation                                -  #
+# ------------------------------------------------------------- #
+npm install react-bootstrap bootstrap
