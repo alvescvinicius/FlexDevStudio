@@ -1,0 +1,51 @@
+.fds-carousel {
+    background-color: gray;
+    margin: 0 auto;
+    /* Responsivo */
+    /* Justifica em cada canto */
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    /* Verificar outros p/ ver como funciona */
+}
+
+.home .fds-carousel .d-block {
+    color: red;
+}
+
+img {
+    height: 400px;
+}
+
+h3 {
+    color: yellow;
+}
+
+p {
+    color: green;
+}
+
+ol.carousel-indicators {
+    margin: 0px auto;
+}
+
+ol.carousel-indicators li {
+    background-color: lightgray;
+    max-width: 40px;
+    min-width: 40px;
+    max-height: 6px;
+}
+
+ol.carousel-indicators li:active {
+    background-color: white;
+    max-width: 40px;
+    min-width: 40px;
+    max-height: 6px;
+}
+
+ol.carousel-indicators .active {
+    background-color: white;
+    max-width: 40px;
+    min-width: 40px;
+    max-height: 6px;
+}

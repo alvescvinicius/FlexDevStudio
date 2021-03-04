@@ -6,7 +6,7 @@
 }
 
 body {
-    background:#fafafa;
+    background-color:black;
     font: 14px sans-serif;
     /* This Webkit make text better quality */
     -webkit-font-smoothing: antialiased !important;

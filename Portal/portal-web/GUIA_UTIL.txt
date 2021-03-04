@@ -1,8 +1,8 @@
 # ------------------------------------------------------------- #
 # - Create project                                           -  #
 # ------------------------------------------------------------- #
-create-react-app portaal-web
-cd portaal-web
+create-react-app portal-web
+cd portal-web
 
 # Install frameworks
 npm install react-router-dom
@@ -56,3 +56,16 @@ src/component/Header/index.js
 # - Bootstrap installation                                -  #
 # ------------------------------------------------------------- #
 npm install react-bootstrap bootstrap
+
+add on public/index.html
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" 
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" 
+          crossorigin="anonymous" 
+/>
+
+add importations of the components that bootstrap will be use (Header.js)
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Nav } from 'react-bootstrap';
+

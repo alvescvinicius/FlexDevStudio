@@ -5,6 +5,7 @@ import Home from './component/Home';
 import Header from './component/Header';
 import './global.css';
 import firebase from './firebase';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 class App extends Component {
 
@@ -24,6 +25,7 @@ class App extends Component {
       <Header/>
         <Switch>
           <Route exact path='/' component={Home}/>
+          <Route exact path='/home' component={Home}/>
         </Switch>
       </BrowserRouter>
     ) : (
