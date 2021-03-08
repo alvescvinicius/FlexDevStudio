@@ -1,53 +1,34 @@
 import React, { Component } from 'react';
-import { Carousel, Container, } from 'react-bootstrap';
+import { Carousel } from 'react-bootstrap';
 import './home.css';
 
-import imgSlide1 from './img/pexels-photo-546819.jpeg';
-import imgSlide2 from './img/pexels-photo-187041.jpeg';
-import imgSlide3 from './img/pexels-photo-577585.jpeg';
+import imgSlide1 from './img/profile.png';
 
 class Home extends Component {
     render() {
         return (
-                <div className="fds-carousel">
-                    <Carousel fade className="fds-fade">
-                        <Carousel.Item>
-                            <img
-                                className="d-block w-100"
-                                src={imgSlide1}
-                                alt="First slide"
-                            />
-                            <Carousel.Caption>
-                                <h3>First slide label</h3>
-                                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                            </Carousel.Caption>
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <img
-                                className="d-block w-100"
-                                src={imgSlide2}
-                                alt="Second slide"
-                            />
+            <div className="fds-carousel">
+
+                <Carousel>
+
+                    <Carousel.Item className="fds-center">
+
+                        <div className="fds-profile">
+
+                            <img src={imgSlide1} />
 
                             <Carousel.Caption>
-                                <h3>Second slide label</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <h3>Carlos Alves</h3>
+                                <p>Analista / Desenvolvedor de sistemas</p>
                             </Carousel.Caption>
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <img
-                                className="d-block w-100"
-                                src="" //{imgSlide3}
-                                alt="Third slide"
-                            />
 
-                            <Carousel.Caption>
-                                <h3>Third slide label</h3>
-                                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                            </Carousel.Caption>
-                        </Carousel.Item>
-                    </Carousel>
-                </div>
+                        </div>
+
+                    </Carousel.Item>
+
+                </Carousel>
+
+            </div >
         );
     }
 }

@@ -1,51 +1,94 @@
 .fds-carousel {
+
     background-color: gray;
     margin: 0 auto;
     /* Responsivo */
-    /* Justifica em cada canto */
+    /* Justifica no centro*/
     text-align: center;
     align-items: center;
     justify-content: center;
-    /* Verificar outros p/ ver como funciona */
+    /* Resolucao de tela mais usada 1360px x 768px- 2021*/
+    max-width: 1360px;
+    max-height: 696px;
+    /* - 72px do Header */
+    /* Resolução para mobile 320px x 568px*/
+    min-width: 320px;
+    min-height: 496px;
+    /* - 72px do Header */
+
 }
 
-.home .fds-carousel .d-block {
-    color: red;
-}
+.carousel-inner {
 
-img {
-    height: 400px;
-}
+    background-color: black;
+    margin: 0 auto;
+    /* Responsivo */
+    /* Justifica no centro*/
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 
-h3 {
-    color: yellow;
-}
-
-p {
-    color: green;
 }
 
 ol.carousel-indicators {
+
     margin: 0px auto;
+    max-height: 696px;
+
 }
 
 ol.carousel-indicators li {
+
     background-color: lightgray;
     max-width: 40px;
     min-width: 40px;
     max-height: 6px;
+
 }
 
 ol.carousel-indicators li:active {
+
+    background-color: white;
+    max-width: 40px;
+    min-width: 40px;
+    max-height: 6px;
+
+}
+
+ol.carousel-indicators .active {
+
     background-color: white;
     max-width: 40px;
     min-width: 40px;
     max-height: 6px;
 }
 
-ol.carousel-indicators .active {
-    background-color: white;
-    max-width: 40px;
-    min-width: 40px;
-    max-height: 6px;
+.fds-profile {
+
+    /* Resolucao de tela mais usada 1360px x 768px- 2021*/
+    max-width: 600px;
+    max-height: 696px;
+    /* - 72px do Header */
+    /* Resolução para mobile 320px x 568px*/
+    min-width: 300px;
+    min-height: 496px;
+    /* - 72px do Header */
+    background-color: black;
+    margin: 0 auto;
+    /* Responsivo */
+    /* Justifica no centro */
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px 20px 20px;
+
 }
+
+.fds-profile img {
+
+    width:200px;
+    height:208px;
+    border-radius: 50%;
+
+}
+

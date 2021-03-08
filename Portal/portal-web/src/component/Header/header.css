@@ -1,23 +1,75 @@
 header#main-header {
-    background: #272727;
-    height: 72px;
+
+    background-color: gray;
+    margin: 0 auto;
+    /* Responsivo */
+    /* Resolucao de tela mais usada 1360px x 768px - 2021*/
+    max-width: 1360px;
+    /* Resolução para mobile 320px x 568px*/
+    min-width: 320px;
+    min-height: 50px;
+
 }
 
-header#main-header .header-content{
-    width: 100%;
-    max-width: 930px;
-    margin: 0 auto; /* Responsivo */
-    padding: 0 30px;
-    height: 72px;
+header#main-header .container {
 
-    /* Justifica em cada canto */
-    display: flex; 
+    background-color: green;
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+    min-width: 320px;
+    max-width: 1360px;
+
+}
+
+header#main-header .container .navbar {
+
+    background-color: rgb(102, 126, 205);
+    margin: 0 auto;
+    padding: 0;
+    padding: 6px;
+
+    border: none;
+
+    min-width: 320px;
+    min-height: 50px;
+
+    text-align: right;
     align-items: center;
-    justify-content: space-between; /* Verificar outros p/ ver como funciona */
+    justify-content: space-between;
+
 }
 
-header#main-header .header-content a{
-    text-decoration: none;
-    color: white;
-    font-size: 23px;
-} 
+header#main-header .container .navbar::before {
+
+    margin: 0 auto;
+    padding: 0;
+    border: 0;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    content: none;
+    min-height: 50px;
+
+}
+
+
+header#main-header .container .navbar::after {
+
+    margin: 0 auto;
+    padding: none;
+    border: none;
+
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    content: none;
+    min-height: 50px;
+
+}
+
+header#main-header .container .navbar .navbar-brand {
+
+    padding-top: 20px;
+
+}

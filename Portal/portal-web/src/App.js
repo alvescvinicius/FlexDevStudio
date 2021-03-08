@@ -3,9 +3,13 @@ import React, { Component } from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Home from './component/Home';
 import Header from './component/Header';
-import './global.css';
 import firebase from './firebase';
 import 'bootstrap/dist/css/bootstrap.min.css';
+
+/*
+  Leave on final imports to not override
+*/
+import './global.css';
 
 class App extends Component {
 
@@ -14,11 +18,12 @@ class App extends Component {
   };
 
   componentDidMount(){
+
     firebase.isInitialized().then(resultado => {
       this.setState({firebaseInitialized: resultado});
     })
   }
-
+  
   render(){
     return this.state.firebaseInitialized !== false ? (
       <BrowserRouter>
