@@ -12,6 +12,7 @@ Ex: git clone https://github.com/alvescvinicius/FlexDevStudio.git
 
 - Versionar codigo no repositorio clonado:    
     git add .
+Ex: git add ./Portal/ctp-monitor-web/    
     git commit -m "DESCRICAO_DA_VERSAO_QUE_SERA_VERSIONADA"
 Ex: git commit -m "Commit inicial do projeto"
     git push
@@ -22,8 +23,22 @@ Ex: git commit -m "Commit inicial do projeto"
 
 - Criacao do projeto (como administrador):
     create-react-app ctp-monitor-web
+    cd ctp-monitor-web
     npm start
 
 - Todo processo de desenvolvimento sera registrado no github sendo identificado pelo comentario adicionado ao commit da implementacao.
     OBS: O commit inicial representa o projeto criado a partir do comando create-react-app sem alterações.
 
+--------------------------------------------------------------------------------------------------------
+-- LIMPEZA DE ARQUIVOS DESNECESSARIOS
+--------------------------------------------------------------------------------------------------------
+
+- Deletar:
+    /src/App.css
+    /src/App.test.js
+    /src/index.css
+    /src/logo.svg
+
+- Remover referencias em:
+    /src/App.js
+    /src/index.js
