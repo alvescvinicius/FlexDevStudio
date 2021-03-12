@@ -1,0 +1,18 @@
+Objetivo do projeto:
+    - Monitorar variacoes de preco de crypto moedas.
+    - Enquanto o valor da crypto moeda (ex: bitcoin) estiver:
+        - Aumentando: 
+            - Não tomar nenhum ação com as moedas já compradas e enviar notificacao informando o lucro obtido com a valorização da moeda.
+        - Dimunuindo: 
+            - Ao atingir a porcentagem de perda definida enviar notificacao informando a queda no valor da moeda, sugerindo efetuar a trade por dinheiro.
+            - Ao atingir um valor determinado como baixo, enviar notificacao informando o baixo valor da moeda o que pode indicar um bom momento para compra-lás considerando uma possível valorização.
+
+Componentes da aplicação:
+    - Uma tela para manipular de notificações (Ex: E-mail, Whatsapp, SMS).
+    - Historico de notificacoes realizadas.
+    - Dashboard de informações em tempo real.
+    - Relatorios de acompanhamento por periodos (Ex: Diario, Semanal, mensal, Anual).
+
+* Implementacoes futuras:
+    - Realizar trades automatizadas via API a partir das regras definidas via interface web.
+    - Criar APP mobile para aumentar controle das trades e manter segurança sempre solicitando a confirmação da trade em tempo real.

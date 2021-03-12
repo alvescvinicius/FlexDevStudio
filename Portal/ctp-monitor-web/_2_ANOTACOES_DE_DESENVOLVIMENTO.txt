@@ -1,0 +1,29 @@
+--------------------------------------------------------------------------------------------------------
+-- VERSIONAMENTO DO CODIGO NO GITHUB
+--------------------------------------------------------------------------------------------------------
+
+- Criar repositorio pela aplicação web do git hub.
+    <nome_do_repositorio>
+Ex: FlexDevStudio
+
+- Clonar repositorio desejado usando o gitbash (Sera criada um diretorio com nome do repositorio dentro do diretorio atual).
+    git clone <endereco_do_repositorio>
+Ex: git clone https://github.com/alvescvinicius/FlexDevStudio.git
+
+- Versionar codigo no repositorio clonado:    
+    git add .
+    git commit -m "DESCRICAO_DA_VERSAO_QUE_SERA_VERSIONADA"
+Ex: git commit -m "Commit inicial do projeto"
+    git push
+
+--------------------------------------------------------------------------------------------------------
+-- CRIACAO DO PROJETO
+--------------------------------------------------------------------------------------------------------
+
+- Criacao do projeto (como administrador):
+    create-react-app ctp-monitor-web
+    npm start
+
+- Todo processo de desenvolvimento sera registrado no github sendo identificado pelo comentario adicionado ao commit da implementacao.
+    OBS: O commit inicial representa o projeto criado a partir do comando create-react-app sem alterações.
+
