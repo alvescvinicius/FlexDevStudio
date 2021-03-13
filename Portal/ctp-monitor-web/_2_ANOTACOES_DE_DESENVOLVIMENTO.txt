@@ -42,3 +42,14 @@ Ex: git commit -m "Commit inicial do projeto"
 - Remover referencias em:
     /src/App.js
     /src/index.js
+
+--------------------------------------------------------------------------------------------------------
+-- CONFIGURACAO DE ROUTER E COMPONENTES
+--------------------------------------------------------------------------------------------------------
+
+- Instalar Framework router dom:
+    npm install react-router-dom
+
+- Criar arquivo index dos components:
+    /src/compoents/Header/index.js
+    /src/compoents/Home/index.js
