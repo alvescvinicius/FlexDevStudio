@@ -1,0 +1,51 @@
+.fds-header {
+
+    /* Faz com que cada item fique em um canto da tela com espaco entre eles */
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    /* ---- */
+
+    padding: 0;
+    border: 0;
+    background-color: deepskyblue;
+
+    /* Menor resolucao foi escolhida a tela do Iphone 5/SE - 320 X 568*/
+    min-width: 320;
+    padding: 10px 10px 10px 10px;
+
+}
+
+.fds-header .fds-brand {
+   /* border: 1px solid magenta; */
+   height: 50px;
+   padding-top: 16px;
+   font-size: 18px;
+   font-weight: bold;
+   color: ghostwhite;
+   
+}
+
+.fds-header .fds-menu-icon {
+   /* border: 1px solid magenta; */
+ }
+
+ .fds-header .fds-menu-icon img {
+    min-width: 30px;
+    max-height: 30px;
+    max-width: 50px;
+    max-height: 50px;
+    /*background-color: yellow;*/
+ }
+
+ .fds-header .fds-menu-icon button {
+   min-width: 30px;
+   max-height: 30px;
+   max-width: 50px;
+   max-height: 50px;
+   /*background-color: yellow;*/
+}
+
+

@@ -53,3 +53,10 @@ Ex: git commit -m "Commit inicial do projeto"
 - Criar arquivo index dos components:
     /src/compoents/Header/index.js
     /src/compoents/Home/index.js
+
+
+--------------------------------------------------------------------------------------------------------
+-- CONFIGURACAO DE MOMENT PARA CONVERSAO DE DATA
+--------------------------------------------------------------------------------------------------------
+
+npm install --save moment react-moment    

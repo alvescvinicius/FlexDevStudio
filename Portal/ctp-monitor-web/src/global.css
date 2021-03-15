@@ -10,4 +10,6 @@ body {
     font: 14px sans-serif;
     /* This Webkit make text better quality */
     -webkit-font-smoothing: antialiased !important;
+    /* Conteudo empilhado um embaixo de outro */
+    flex-direction: column;
 }

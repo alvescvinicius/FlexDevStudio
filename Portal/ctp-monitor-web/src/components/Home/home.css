@@ -1,0 +1,88 @@
+.fds-ctp-monitor {
+    margin: 0 auto;
+    padding: 0;
+    /*border: 1px solid chocolate;*/
+    border: none;
+    text-align: center;
+}
+
+.fds-ctp-monitor .fds-ctp-monitor-indicator {
+    margin: 4px auto;
+    /*border: 1px solid green;*/
+    border: none;
+    text-align: center;
+}
+
+.fds-ctp-monitor .fds-ctp-monitor-indicator .fds-ctp-monitor-indicator-last {
+    margin: 12px auto;
+    padding: 0;
+    /*border: 1px solid chocolate;*/
+    border: none;
+    /* Tamanho */
+    min-width: 260px;
+    min-height: 60px;
+    max-width: 260px;
+    max-height: 60px;
+    /* Centraliza conteudo no meio da div */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Fonte */
+    color: white;
+    background-color: lightgreen;
+    font-size: 18px;
+}
+
+.fds-ctp-monitor .fds-ctp-monitor-indicator label {
+    margin: 12px auto;
+    padding: 0;
+    /*border: 1px solid chocolate;*/
+    border: none;
+    /* Tamanho */
+    min-width: 260px;
+    min-height: 60px;
+    max-width: 260px;
+    max-height: 60px;
+    /* Centraliza conteudo no meio da div */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Fonte */
+    font-size: 18px;
+}
+
+.fds-ctp-monitor .fds-ctp-monitor-indicator span {
+    margin: 12px auto;
+    padding: 0;
+    /*border: 1px solid chocolate;*/
+    border: none;
+    /* Tamanho */
+    min-width: 260px;
+    min-height: 60px;
+    max-width: 260px;
+    max-height: 60px;
+    /* Centraliza conteudo no meio da div */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Fonte */
+    font-size: 18px;
+}
+
+.fds-ctp-monitor .fds-ctp-monitor-indicator .up {
+    color: white;
+    background-color: rgb(30, 182, 30);
+
+}
+
+.fds-ctp-monitor .fds-ctp-monitor-indicator .down {
+    color: white;
+    background-color: crimson;
+
+}
+
+.fds-ctp-monitor .fds-ctp-monitor-indicator .stable {
+    color: black;
+    background-color: lightgray;
+
+}
